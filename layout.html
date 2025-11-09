@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Creat Account</title>
+  </head>
+  <body>
+      <div class="mx-auto flex h-14 max-w-10xl items-center gap-6 px-4 sm:px-0 lg:px-0 bg-indigo-700">
+     <nav class=" bg-indigo-700 px-1 text-white">
+      <ul class="flex">
+       <li class="group relative px-5 min-w-20 py-4 hover:bg-indigo-800">
+          <a href="#" class="mt-8">Profil</a>
+          <ul class="absolute left-0 top-14 min-w-30 hidden hover:bg-indigo-700 shaddow group-hover:block">
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Tentang kami</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Latar belakang</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Konten</a></li>
+          </ul>
+        </li>
+        <li class="group relative px-4 min-w-20 py-4 hover:bg-indigo-800">
+          <a href="#">Progres</a>
+          <ul class="absolute left-0 top-14 min-w-30 hidden hover:bg-indigo-700 shaddow group-hover:block">
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Materi ajar</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Jadwal</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Metode</a></li>
+          </ul>
+        </li>
+        <li class="group relative px-5 min-w-20 py-4 hover:bg-indigo-800">
+          <a href="#">Informasi</a>
+          <ul class="absolute left-0 top-14 min-w-30 hidden hover:bg-indigo-700 shaddow group-hover:block">
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Berita</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Artikel</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Pengumuman</a></li>
+          </ul>
+        </li>
+        <li class="group relative px-5 min-w-25 py-4 hover:bg-indigo-800">
+          <a href="#">Contact</a>
+          <ul class="absolute left-0 top-14 min-w-30 hidden hover:bg-indigo-700 shaddow group-hover:block">
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Tentor 1</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Tentor 2</a></li>
+            <li><a href="#" class="block p-2 hover:bg-indigo-800">Tentor 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+   </div><br>
+  <form action="index.php" methode="POST" class=" lg:place-content-center mx-auto max-w-md space-y-2 rounded-lg border border-gray-300 bg-gray-100 p-6">
+  <div>
+    <img class="w-20 h-20 mx-auto" src="generate.png" alt="image description">
+    <label class=" block text-sm font-medium text-gray-900 ml-40" for="name">registration</label>
+  </div>
+
+  <div>
+   <label class="block text-sm font-medium text-gray-900" for="name">Email</label>
+
+    <input class="px-3 py-1 mt-1 w-full rounded-lg border-black-900 focus:border-black-500 focus:outline-none bg-white" id="name" type="text" placeholder="alamat Email, ex: strujiani@gmail.com">
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-gray-900" for="email">Password</label>
+
+    <input class="px-3 py-1 mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none bg-white" id="password" type="password" placeholder="ketikan password">
+  </div>
+  <button class="block w-full rounded-lg border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-indigo-600" type="submit">
+    register
+  </button>
+  <a href="index.html" class="text-blue-900 underline">sign in</a>
+</form>
+ </body>
+</html>
